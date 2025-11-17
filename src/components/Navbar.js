@@ -5,7 +5,7 @@ const Navbar = ({ cartCount, setView, theme, setTheme }) => {
   return (
     <nav style={styles.nav}>
       <div style={styles.left} onClick={() => setView("products")}>
-        <h2 style={styles.logo}>V-Shop</h2>
+        <h2 style={styles.logo}>V-Shop TEST</h2>
       </div>
 
       <div style={styles.searchBox}>
